@@ -6,8 +6,10 @@
 */DerivedDataCache
 */Intermediate
 */Saved
+*/.vs
 BuildingEscape/Content/StarterContent/Textures
 BuildingEscape/Content/StarterContent/HDRI
+BuildingEscape/BuildingEscape.sln
 
 ######################
 # VS Generated Files #
