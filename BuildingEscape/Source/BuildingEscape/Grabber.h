@@ -25,6 +25,9 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	FVector GetReachLineStart();
+	FVector GetReachLineEnd();
+
 private:
 	// How far ahead the player can reach in cm
 	float Reach = 100.f;
