@@ -40,7 +40,8 @@ private:
 	float DoorCloseDelay = 1.f;
 	float DoorLastOpenTime;
 	
-	AActor* ActorThatOpens; // Pawn inherits from actor
 	AActor* Owner; // The owning door
+
+	float GetTotalMassOfActorOnPlate();
 
 };
